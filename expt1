@@ -1,0 +1,126 @@
+1] date
+Tue Aug 23 15:51:54 IST 2022
+date +%m 08
+date +%h Aug
+date +%d 23
+date +%y 22
+date +%H 15
+date +%M 51
+date +%S 54
+date +%T 15:51:54
+date +%D 08/23/22
+
+2]cal
+
+cal 10 2002
+
+cal 2002
+
+3]who
+
+student@cnc-7:~$ who
+student :0 2022-08-23 15:08 (:0)
+student pts/0 2022-08-23 16:43 (:0)
+student@cnc-7:~$
+WHO M I
+student@cnc-7:~$ who m i
+student pts/0 2022-08-23 16:43 (:0)
+student@cnc-7:~$
+4]ps
+student@cnc-7:~$ ps
+PID TTY TIME CMD
+4029 pts/0 00:00:00 bash
+4110 pts/0 00:00:00 ps
+
+student@cnc-7:~$
+5]ls
+6]WC
+student@cnc-7:~$
+wc abc
+1 2 13 abc
+student@cnc-7:~$
+wc -l abc
+1 abc
+student@cnc-7:~$
+wc -w abc
+2 abc
+student@cnc-7:~$
+wc -c abc
+13 abc
+
+7]cat
+ALL THE FILE
+COMMANDS
+8]man
+
+student@cnc-7:~$ man ls
+OPENS THE MANUAL
+
+9] echo
+student@cnc-7:~$ echo "hello world"
+hello world
+student@cnc-7:~$
+
+10]BC
+student@cnc-7:~$ bc
+bc 1.06.95
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'.
+2+3
+5
+CTRL +D TO EXIT
+
+11] type
+student@cnc-7:~$ type ls
+ls is aliased to `ls --color=auto'
+
+student@cnc-7:~$
+
+12] script
+student@cnc-7:~$ script 20co65
+Script started, file is 20co65
+Script done on Tuesday 23 August 2022 04:17:41 PM IST
+
+13]passwd
+student@cnc-7:~$ passwd
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: Authentication token manipulation error
+passwd: password unchanged
+
+14]uname
+student@cnc-7:~$ uname
+Linux
+VERSION
+student@cnc-7:~$ uname -r
+3.16.0-30-generic
+
+meta characters (*,>,|)
+student@cnc-7:~$ ls a*
+ab abc abc~
+aaa:
+SHOWS NUMBER OF FILES IN THE DIRECTORY
+student@cnc-7:~$ ls |wc -l
+20
+15]tty
+student@cnc-7:~$ tty
+/dev/pts/10
+
+16]twd
+student@cnc-7:~$ pwd
+/home/student
+17]mkdir
+student@cnc-7:~$ mkdir aabbcc
+MAKE ONE FOLDER WITHIN ANOTHER FOLDER
+student@cnc-7:~$ mkdir a/b
+MAKE 2 SIMULTANEOUS FOLDERS
+student@cnc-7:~$ mkdir x y
+
+18]CHANGE DIRECTORIES
+student@cnc-7:~$ cd aabbcc
+COME BACK TO PREVIOUS DIRECTORY
+student@cnc-7:~/aabbcc$ cd ..
+19]REMOVE DIRECTORY
+student@cnc-7:~$ rmdir x
+20]
